@@ -1,3 +1,6 @@
-<ul>
-    <li *ngFor="let name of names">Hello {{ name }}</li>
-</ul>
+<ul style="list-style: none;">
+    <li *ngFor="let name of names">
+      <app-user-item [name]="name">
+      </app-user-item>
+    </li>
+  </ul>

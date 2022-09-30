@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-list.component.css']
 })
 export class UserListComponent implements OnInit {
-  names: string[]; 
+  names: string[]; //Creiamo il nostro vettore di stringhe 
   constructor() { 
-     this.names = ['Ari', 'Carlos', 'Felipe', 'Nate']; 
+     this.names = ['Ari', 'Carlos', 'Felipe', 'Nate']; //Riempiamo il vettore
   }
   ngOnInit() {
   }
